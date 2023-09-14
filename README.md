@@ -1,3 +1,21 @@
+
+This is Laravel project with the next functionalities:
+
+SKILLS: PHP/LARAVEL, MySQL database, HTML with Blade, Bootstrap, Javascript, jQuery, AJAX
+
+- migrations for users and roles
+- seeder for the roles 
+- FK from roles to the users table with (roolback)
+- middlewares for redirecting to different pages depending on the role they have
+- RESTFull api for ALL CRUD operations
+- function search, searching by name and email, and additional new route search
+- command for deleting a random student
+- The command is setted to run every Saturday at 12AM
+
+The student user goes to the regular ‘home’ page after login that shows ‘You are logged in!’.
+The instructor gets redirected to the admin login page where a table of all users is shown.
+The instructors can only view the other instructors, but they can create, edit & delete student
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
